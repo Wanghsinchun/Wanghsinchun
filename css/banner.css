@@ -9,7 +9,7 @@ body {
     height: 100vh;
     background-color: #000;
     color: #fff;
-    background: linear-gradient(70deg, transparent 60%, #AB4D3F 40%) center center / 100% 100%, url(/pic/banner/01.jpg) left center / auto 100%;
+    background: linear-gradient(70deg, transparent 60%, #AB4D3F 40%) center center / 100% 100%, url(../pic/banner/01.jpg) left center / auto 100%;
 }
 
 .carousel-item2 {
@@ -17,7 +17,7 @@ body {
     height: 100vh;
     background-color: #000;
     color: #fff;
-    background: linear-gradient(70deg, transparent 60%, #565F30 40%) center center / 100% 100%, url(/pic/banner/02.jpg) left center / auto 100%;
+    background: linear-gradient(70deg, transparent 60%, #565F30 40%) center center / 100% 100%, url(../pic/banner/02.jpg) left center / auto 100%;
 }
 
 .carousel-item3 {
@@ -25,7 +25,7 @@ body {
     height: 100vh;
     background-color: #000;
     color: #fff;
-    background: linear-gradient(70deg, transparent 60%, #744C78 40%) center center / 100% 100%, url(/pic/banner/03.jpg) left center / auto 100%;
+    background: linear-gradient(70deg, transparent 60%, #744C78 40%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
 }
 
 

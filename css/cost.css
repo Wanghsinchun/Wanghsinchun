@@ -7,13 +7,13 @@
 
 body{    
     letter-spacing: 0.1em;
-    background-image: url(/pic/feature/schedule-bg.png);
+    background-image: url(../pic/feature/schedule-bg.png);
     position: relative;
     
 }
 
 .cost-banner{
-    background-image: url(/pic/cost/7.jpg);
+    background-image: url(../pic/cost/7.jpg);
     background-attachment: fixed;
 }
 
