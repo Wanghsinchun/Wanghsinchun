@@ -1,0 +1,62 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*nav*/
+.navbar .navbar-brand{
+    color:#666666;
+   font-weight: 400;
+   font-size: 20px;
+}
+.navbar-nav li a{
+    font-size: 16px;
+}
+svg{
+    margin-right: 10px;
+}
+
+.Feature-nav{
+    z-index: 0;
+}
+.nav-item{
+    z-index: 1;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+nav #navbarNav a{
+    color:rgb(102, 102, 102);
+    position:relative;
+}
+
+
+nav #navbarNav a:hover{
+   color:#CDAF9A;
+   font-weight: 700;
+   -webkit-transform: translateY(-5px);
+       -ms-transform: translateY(-5px);
+           transform: translateY(-5px);
+   -webkit-transition: .3s;
+   -o-transition: .3s;
+   transition: .3s;
+
+}
+
+ nav .navbar-toggler .navbar-toggler-icon{
+     color:#ccc;
+ }
+
+
+ /*navRWD*/
+
+ @media screen and (max-width:1199px){
+    nav #navbarNav a{
+        font-size: 18px;
+    }
+ }
+

@@ -1,0 +1,161 @@
+/*banner*/
+body {
+    height: 100vh;
+}
+
+
+.carousel-item1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    background: linear-gradient(70deg, transparent 60%, #AB4D3F 40%) center center / 100% 100%, url(/pic/banner/01.jpg) left center / auto 100%;
+}
+
+.carousel-item2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    background: linear-gradient(70deg, transparent 60%, #565F30 40%) center center / 100% 100%, url(/pic/banner/02.jpg) left center / auto 100%;
+}
+
+.carousel-item3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    background: linear-gradient(70deg, transparent 60%, #744C78 40%) center center / 100% 100%, url(/pic/banner/03.jpg) left center / auto 100%;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 10%;
+}
+
+
+.carousel-text-position {
+    position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 42%;
+    left: -35%;
+    text-align: right;
+}
+
+.carousel-caption h5 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+
+.carousel-caption a {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.carousel-caption button {
+    padding: 2px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color: transparent;
+}
+
+.carousel-caption button a:hover,
+.carousel-caption button:hover {
+    border-radius: 10px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+
+}
+
+
+/*banner RWD*/
+
+
+@media screen and (max-width:1200px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 15%;
+    }
+
+    .carousel-text {
+        position: absolute;
+        top: 45%;
+        left: -5%;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 10%;
+    }
+
+    .carousel-text {
+        position: absolute;
+        top: 42%;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+
+
+    .carousel-text {
+        position: absolute;
+        top: 42%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+
+    .carousel-item1 {
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(160deg, transparent 1%, #AB4D3F 90%) center center / 100% 100%, url(/pic/banner/01.jpg) left center / auto 100%;
+    }
+
+    .carousel-item2 {
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(160deg, transparent 1%, #565F30 90%) center center / 100% 100%, url(/pic/banner/02.jpg) left center / auto 100%;
+    }
+
+    .carousel-item3 {
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        color: #fff;
+        background: linear-gradient(160deg, transparent 1%, #744C78 90%) center center / 100% 100%, url(/pic/banner/03.jpg) left center / auto 100%;
+    }
+}
+
+

@@ -1,0 +1,490 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+img {
+    max-width: 100%;
+}
+
+/*Feature-nav*/
+.Feature-nav {
+    width: 100%;
+    margin-top: 69.3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: #CDAF9A;
+    list-style: none;
+}
+
+.Feature-nav a {
+    padding: 10px 0px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Feature-nav a:hover {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    background-color: #ccc;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.Feature-nav a:before {
+    content: "|";
+    padding: 5px;
+}
+
+.Feature-nav a:after {
+    content: "|";
+    padding: 5px;
+}
+
+
+
+
+/*Feature-nav RWD*/
+@media screen and (min-width:2000px) {
+    .Feature-nav {
+        margin: auto;
+        max-width: 2400px;
+        margin-top: 69.3px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        background-color: #CDAF9A;
+        list-style: none;
+    }
+
+    .Feature-nav a {
+        padding: 10px 120px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .Feature-nav a:hover {
+        background-color: #ccc;
+        padding: 10px 120px;
+        display: inline-block;
+
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .Feature-nav a {
+        padding: 10px 0px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .Feature-nav a:hover {
+        background-color: #ccc;
+        padding: 10px 40px;
+        display: inline-block;
+    }
+
+    .Feature-nav a:after,
+    .Feature-nav a:before {
+        content: "　";
+        display: none;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .navbar .navbar-brand {
+        font-size: 18px;
+    }
+
+    .Feature-nav a {
+        padding: 10px 0px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+
+    .Feature-nav a:hover {
+        background-color: #ccc;
+        padding: 10px 20px;
+        display: inline-block;
+
+    }
+
+
+    .Feature-nav a:after,
+    .Feature-nav a:before {
+        content: "　";
+        display: none;
+
+    }
+}
+
+
+
+
+/*Feature*/
+
+#Feature1 {
+    -webkit-animation: feature1 2s;
+    animation: feature1 2s;
+}
+
+/*Feature-BG*/
+body {
+    background-image: url("/pic/feature/schedule-bg.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/*防瞄點跟內容重疊*/
+#Feature1,
+#Feature2,
+#Feature3,
+#Feature4,
+#Feature5 {
+    padding-top: 220px;
+}
+
+
+/*內文樣式*/
+.txt h5,
+.txt p {
+    color: #555555;
+    text-align: justify;
+    -webkit-animation: feature1 2.5s;
+    animation: feature1 2.5s;
+}
+
+.txt h5 {
+    font-size: 18px;
+    color: #887466;
+}
+
+.txt p {
+    font-size: 16px;
+}
+
+#Feature1 .txt,
+#Feature2 .txt,
+#Feature3 .txt,
+#Feature4 .txt,
+#Feature5 .txt {
+    padding: 30px;
+}
+
+
+
+/*前往預定按鈕*/
+.feature button {
+    padding: 2px 15px;
+    border: 0.5px solid #989898;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color: transparent;
+}
+
+.feature button a {
+    color: #666666;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.feature button:hover {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    background-color: #887466;
+}
+
+.feature button a:hover {
+    color: #fff;
+}
+
+
+/*詳細行程內容*/
+
+.firefly {
+    margin-top: 300px;
+    padding: 150px 100px 100px 100px;
+    background-image: url("/pic/feature/6.jpg");
+    background-attachment: fixed;
+    position: relative;
+    clear: both;
+}
+
+.bicycle {
+    position: absolute;
+    height: 200px;
+    top: -180px;
+    left: 300px;
+    z-index: 1;
+    -webkit-animation: bike 10s infinite;
+    animation: bike 10s infinite;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+
+.item {
+    padding: 50px 50px 50px 50px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 2px 2px 15px rgb(32, 39, 29);
+    box-shadow: 2px 2px 15px rgb(32, 39, 29);
+}
+
+.schedule-title {
+    margin-right: 0px;
+}
+
+
+
+/*Feature RWD*/
+
+@media screen and (max-width:991px) {
+
+    #Feature1 .txt,
+    #Feature2 .txt,
+    #Feature3 .txt,
+    #Feature4 .txt,
+    #Feature5 .txt {
+        padding: 10px 10px 30px 0px;
+    }
+
+
+    #Feature1,
+    #Feature2,
+    #Feature3,
+    #Feature4,
+    #Feature5 {
+        padding-top: 170px;
+    }
+
+
+    img[alt="採果"],
+    img[alt="拍景"],
+    img[alt="食草"],
+    img[alt="螢舞"],
+    img[alt="賞花"] {
+        width: 90px;
+    }
+
+    img[alt="詳細行程"] {
+        padding: 5px;
+    }
+
+
+    .bicycle {
+        position: absolute;
+        height: 180px;
+        top: -160px;
+        left: 60px;
+    }
+
+    .item {
+        padding: 50px 0 50px 50px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+
+
+    .bicycle {
+        position: absolute;
+        height: 200px;
+        top: -165px;
+        left: 20px;
+    }
+
+    .firefly {
+        padding: 50px;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    #Feature1,
+    #Feature2,
+    #Feature3,
+    #Feature4,
+    #Feature5 {
+        padding-top: 120px;
+    }
+
+    #Feature1 .txt,
+    #Feature2 .txt,
+    #Feature3 .txt,
+    #Feature4 .txt,
+    #Feature5 .txt {
+        padding: 10px 20px 30px 20px;
+    }
+
+    .txt h5,
+    .txt p {
+        color: #555555;
+        text-align: justify;
+    }
+
+    .txt h5 {
+        font-size: 18px;
+        color: #887466;
+    }
+
+    .txt p {
+        font-size: 16px;
+    }
+
+    .firefly {
+        margin-top: 200px;
+    }
+
+
+
+    .bicycle {
+        position: absolute;
+        height: 180px;
+        top: -145px;
+        left: 20px;
+        -webkit-animation: none;
+        animation: none;
+    }
+
+
+    .feature button {
+        padding: 1px 10px;
+    }
+
+    .feature button a {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+
+}
+
+@media screen and (max-width:376px) {
+    .firefly {
+        padding: 13px;
+        margin-top: 140px;
+    }
+
+    .bicycle {
+        position: absolute;
+        height: 120px;
+        top: -110px;
+        left: 20px;
+    }
+
+
+}
+
+
+
+/*footer*/
+.footer {
+    background-color: #887466;
+    position: absolute;
+    bottom: calc(100vh-50px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 15px 0px 0px 0;
+
+
+}
+
+
+.footer a,
+.footer p {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+
+
+
+
+@-webkit-keyframes feature1 {
+    0% {
+        -webkit-transform: translateX(-400px);
+        transform: translateX(-400px)
+    }
+
+    ;
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+
+    ;
+}
+
+
+
+
+
+@keyframes feature1 {
+    0% {
+        -webkit-transform: translateX(-400px);
+        transform: translateX(-400px)
+    }
+
+    ;
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+
+    ;
+}
+
+
+@-webkit-keyframes bike {
+    0% {
+        -webkit-transform: translateX(-1900px);
+        transform: translateX(-1900px)
+    }
+
+    ;
+
+    100% {
+        -webkit-transform: translateX(50px);
+        transform: translateX(50px)
+    }
+
+    ;
+}
+
+@keyframes bike {
+    0% {
+        -webkit-transform: translateX(-1900px);
+        transform: translateX(-1900px)
+    }
+
+    ;
+
+    100% {
+        -webkit-transform: translateX(50px);
+        transform: translateX(50px)
+    }
+
+    ;
+}

@@ -1,0 +1,207 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{    
+    letter-spacing: 0.1em;
+    background-image: url(/pic/feature/schedule-bg.png);
+    position: relative;
+    
+}
+
+.cost-banner{
+    background-image: url(/pic/cost/7.jpg);
+    background-attachment: fixed;
+}
+
+
+/*costJQ*/
+#item1,
+#item2,
+#item3{
+    display: none;   
+    background-color: #e2e2e2;
+    width: 100%;
+    padding: 40px;
+    text-indent:-0.8em;
+ }
+
+
+.notice{
+    margin-top: 69.3px;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+.shadow{
+    -webkit-box-shadow: -5px 0 10px #000;
+            box-shadow: -5px 0 10px #000;
+}
+
+img[alt="費用說明"]{
+    margin-top: 50px;
+    margin-bottom: -20px;
+    z-index: 1;
+    -webkit-animation: cost3 2s ;
+            animation: cost3 2s ;
+
+}
+
+img[alt="家庭圖片"]{
+    display: block;
+    width: 70%;
+    -webkit-animation: cost1 2.5s ;
+            animation: cost1 2.5s ;
+
+}
+
+.notice button{
+    width: 100%;    
+    padding: 10px;
+    border: 1px solid #ffffff;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    background-color: #455A64;
+    color:#ffffff;
+}
+
+.notice .slide2 span,
+.notice button:not( [class="order"] ){
+    -webkit-animation: cost2 2.5s ;
+            animation: cost2 2.5s ;
+
+}
+
+.notice .slide2 span{
+    width: 100%;    
+    padding: 15px;
+    border: 1px solid #ffffff;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    background-color: #8f4c57;
+    color:#ffffff;
+    text-align: center;
+}
+
+.notice button:hover{
+    background-color: #2a4e5f;
+    color:#ffffff;
+}
+
+
+
+.slide2{
+    width: 100%;
+    margin-bottom: 50px;    
+    margin-top: -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+/*前往預定按鈕*/
+.notice .order{
+    width: 180px;
+    padding: 2px 15px;
+    border-radius: 25px;
+    line-height: 38px;
+    background-color: #F16C5D;
+    margin-bottom: 50px;
+}
+
+.notice .order a{
+    color:#666666;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-decoration: none;   
+}
+
+.notice .order:hover{
+    -webkit-animation: shake .1s linear infinite alternate;
+            animation: shake .1s linear infinite alternate;
+    background-color: #dd772d; 
+}
+
+@-webkit-keyframes shake{
+    0%{-webkit-transform: rotate(-10deg);transform: rotate(-10deg)};
+    100%{-webkit-transform: rotate(10deg);transform: rotate(10deg)};
+}
+
+@keyframes shake{
+    0%{-webkit-transform: rotate(-10deg);transform: rotate(-10deg)};
+    100%{-webkit-transform: rotate(10deg);transform: rotate(10deg)};
+}
+
+
+@-webkit-keyframes cost1{
+    0%{-webkit-transform: translateY(-400px);transform: translateY(-400px)};
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)};
+}
+
+
+@keyframes cost1{
+    0%{-webkit-transform: translateY(-400px);transform: translateY(-400px)};
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)};
+}
+
+@-webkit-keyframes cost2{
+    0%{-webkit-transform: translateY(400px);transform: translateY(400px)};
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)};
+}
+
+@keyframes cost2{
+    0%{-webkit-transform: translateY(400px);transform: translateY(400px)};
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)};
+}
+
+@-webkit-keyframes cost3{
+    0%{-webkit-transform: translateX(400px);transform: translateX(400px)};
+    100%{-webkit-transform: translateX(0px);transform: translateX(0px)};
+}
+
+@keyframes cost3{
+    0%{-webkit-transform: translateX(400px);transform: translateX(400px)};
+    100%{-webkit-transform: translateX(0px);transform: translateX(0px)};
+}
+
+/*footer*/
+
+.footer{    
+    background-color: #887466;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:calc(100vh-50px);
+    text-align: center;
+    padding: 15px 0px 0px 0;
+    }
+
+ 
+.footer a,
+.footer p{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+}
