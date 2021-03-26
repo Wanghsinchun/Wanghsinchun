@@ -103,6 +103,10 @@ img {
 
 @media screen and (max-width:575px) {
 
+    .Feature-nav {        
+        margin-top: 64px;
+    }
+
     .navbar .navbar-brand {
         font-size: 18px;
     }
