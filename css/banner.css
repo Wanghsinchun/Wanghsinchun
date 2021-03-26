@@ -138,8 +138,8 @@ body {
         height: 100vh;
         background-color: #000;
         color: #fff;
-        background: -o-linear-gradient(30deg, transparent 1%, #AB4D3F 90%) center center / 100% 100%, url(../pic/banner/01-2.jpg) left center / auto 100%;
-        background: linear-gradient(60deg, transparent 1%, #AB4D3F 90%) center center / 100% 100%, url(../pic/banner/01-2.jpg) left center / auto 100%;
+        background: -o-linear-gradient(150deg, transparent 1%, #AB4D3F 90%) center center / 100% 100%, url(../pic/banner/01-2.jpg) left center / auto 100%;
+        background: linear-gradient(150deg, transparent 1%, #AB4D3F 90%) center center / 100% 100%, url(../pic/banner/01-2.jpg) left center / auto 100%;
 
     }
 
@@ -148,8 +148,8 @@ body {
         height: 100vh;
         background-color: #000;
         color: #fff;
-        background: -o-linear-gradient(290deg, transparent 1%, #565F30 90%) center center / 100% 100%, url(../pic/banner/02.jpg) left center / auto 100%;
-        background: linear-gradient(160deg, transparent 1%, #565F30 90%) center center / 100% 100%, url(../pic/banner/02.jpg) left center / auto 100%;
+        background: -o-linear-gradient(150deg, transparent 1%, #565F30 90%) center center / 100% 100%, url(../pic/banner/02.jpg) left center / auto 100%;
+        background: linear-gradient(150deg, transparent 1%, #565F30 90%) center center / 100% 100%, url(../pic/banner/02.jpg) left center / auto 100%;
     }
 
     .carousel-item3 {
@@ -157,7 +157,7 @@ body {
         height: 100vh;
         background-color: #000;
         color: #fff;
-        background: -o-linear-gradient(290deg, transparent 1%, #744C78 90%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
-        background: linear-gradient(160deg, transparent 1%, #744C78 90%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
+        background: -o-linear-gradient(150deg, transparent 1%, #744C78 70%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
+        background: linear-gradient(150deg, transparent 1%, #744C78 70%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
     }
 }
