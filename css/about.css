@@ -130,6 +130,9 @@ h4{
         text-align: center;
         height: 100%;
     }    
+    .item2 .pic img{
+        min-width: 320px;
+    }
 }
 
 
