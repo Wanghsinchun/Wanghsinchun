@@ -297,10 +297,9 @@ img[alt="家庭圖片"] {
 }
 
 
-@media and(max-width:576px) {
-    .notice .slide2 span {
-        width: 120%;
-        padding: 10px;
+@media (max-width:576px) {
+    .notice .slide2 {
+        width: 300px;
     }
 
     img[alt="家庭圖片"] {

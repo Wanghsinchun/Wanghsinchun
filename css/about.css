@@ -129,6 +129,7 @@ h4{
         background-color: #a58b79;
         text-align: center;
         height: 100%;
+        padding: 20px;
     }    
     .item2 .pic img{
         min-width: 320px;
