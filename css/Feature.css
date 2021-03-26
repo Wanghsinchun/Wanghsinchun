@@ -141,8 +141,8 @@ img {
 /*Feature*/
 
 #Feature1 {
-    -webkit-animation: feature1 2s;
-    animation: feature1 2s;
+    -webkit-animation: feature1 1.5s;
+    animation: feature1 1.5s;
 }
 
 /*Feature-BG*/

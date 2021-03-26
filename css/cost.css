@@ -306,6 +306,13 @@ img[alt="家庭圖片"] {
         margin-bottom: 10px;
     }
 
+    img[alt="費用說明"] {
+        width: 180px;
+        margin-bottom: 0px;
+   
+    
+    }
+
     .notice .order:hover {
         -webkit-animation: none;
         animation: none;
