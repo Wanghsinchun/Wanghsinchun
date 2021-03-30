@@ -10,6 +10,8 @@ body {
     background-color: #000;
     color: #fff;
     background: linear-gradient(70deg, transparent 60%, #AB4D3F 40%) center center / 100% 100%, url(../pic/banner/01.jpg) left center / auto 100%;
+    animation: bg-move 2s linear infinite alternate;
+    -webkit-animation: bg-move 2s linear infinite alternate;
 }
 
 .carousel-item2 {
@@ -18,6 +20,8 @@ body {
     background-color: #000;
     color: #fff;
     background: linear-gradient(70deg, transparent 60%, #565F30 40%) center center / 100% 100%, url(../pic/banner/02.jpg) left center / auto 100%;
+    animation: bg-move 2s linear infinite alternate;
+    -webkit-animation: bg-move 2s linear infinite alternate;
 }
 
 .carousel-item3 {
@@ -26,6 +30,8 @@ body {
     background-color: #000;
     color: #fff;
     background: linear-gradient(70deg, transparent 60%, #744C78 40%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
+    animation: bg-move 2s linear infinite alternate;
+    -webkit-animation: bg-move 2s linear infinite alternate;
 }
 
 
@@ -103,6 +109,13 @@ body {
         top: 45%;
         left: -5%;
     }
+.carousel-item1,
+.carousel-item2,
+.carousel-item3{
+
+    animation:none;
+    -webkit-animation:none;
+}
 }
 
 
@@ -159,5 +172,14 @@ body {
         color: #fff;
         background: -o-linear-gradient(150deg, transparent 1%, #744C78 90%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
         background: linear-gradient(150deg, transparent 1%, #744C78 90%) center center / 100% 100%, url(../pic/banner/03.jpg) left center / auto 100%;
+    }
+}
+
+
+
+
+@keyframes bg-move{
+    100%{
+        background-position: -10% 0;
     }
 }
