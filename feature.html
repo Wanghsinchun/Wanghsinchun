@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>宜蘭大人囝仔一日遊-行程內容</title>
 
@@ -160,7 +160,7 @@
 
 
         <!--特色2-->
-        <div class="container-fluid hideleft">
+        <div class="container-fluid"  data-aos="fade-up" data-aos-duration="1200">
             <div class="container">
                 <div class="row g-0 " id="Feature2">
                     <div class="d-none d-sm-block col-sm-2 col-lg-1"><img src="pic/feature/feature2.png" alt="賞花">
@@ -191,7 +191,7 @@
 
 
         <!--特色3-->
-        <div class="container-fluid hideleft">
+        <div class="container-fluid"  data-aos="fade-up" data-aos-duration="1200">
             <div class="container">
                 <div class="row g-0" id="Feature3">
                     <div class="d-none d-sm-block  col-sm-2 col-lg-1 "><img src="pic/feature/feature3.png" alt="拍景">
@@ -217,7 +217,7 @@
 
 
         <!--特色4-->
-        <div class="container-fluid hideleft">
+        <div class="container-fluid"  data-aos="fade-up" data-aos-duration="1200">
             <div class="container">
                 <div class="row g-0" id="Feature4">
                     <div class="d-none d-sm-block  col-sm-2 col-lg-1"><img src="pic/feature/feature4.png" alt="食草">
@@ -248,7 +248,7 @@
 
 
         <!--特色5-->
-        <div class="container-fluid hideleft">
+        <div class="container-fluid"  data-aos="fade-up" data-aos-duration="1200">
             <div class="container">
                 <div class="row g-0" id="Feature5">
                     <div class="d-none d-sm-block col-sm-2 col-lg-1"><img src="pic/feature/feature5.png" alt="螢舞"> </div>
@@ -284,11 +284,11 @@
         <div class="container">
             <div class="row g-0 justify-content-center">
 
-                <div class="d-none d-md-block col-md-1 schedule-title">
+                <div class="d-none d-md-block col-md-1 schedule-title" data-aos="fade-right" data-aos-duration="1300">
                     <img src="pic/feature/feature6.png" alt="詳細行程">
                 </div>
 
-                <div class="col-xs-10 col-md-7 align-items-center">
+                <div class="col-xs-10 col-md-7 align-items-center" data-aos="fade-right" data-aos-duration="1300">
                     <div class="item">
                         <div class="txt">
                             <p>|| 上午行程 ||</p>
@@ -342,6 +342,8 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         $(document).ready(function () {
 
@@ -360,16 +362,22 @@
 
                     }
 
-                });
-            });
+                })
+            })
 
             
+   
+            $(function () {
+                AOS.init()
+            })
+    
 
-
-        });
+        })
 
     </script>
 
 </body>
+
+
 
 </html>

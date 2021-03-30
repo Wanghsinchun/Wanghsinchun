@@ -167,8 +167,7 @@ body {
 .txt p {
     color: #555555;
     text-align: justify;
-    -webkit-animation: feature1 2.5s;
-    animation: feature1 2.5s;
+   
 }
 
 .txt h5 {
