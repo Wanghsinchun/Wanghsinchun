@@ -8,6 +8,13 @@
 img {
     max-width: 100%;
 }
+button.navbar-toggler.collapsed {
+    height: 46px;
+}
+
+.navbar {
+    height: 66px;
+}
 
 /*Feature-nav*/
 .Feature-nav {
