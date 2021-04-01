@@ -20,6 +20,7 @@ img {
     justify-content: space-around;
     background-color: #CDAF9A;
     list-style: none;
+    z-index: 999;
 }
 
 .Feature-nav a {

@@ -6,6 +6,10 @@
 */
 
 /*nav*/
+
+.navbar{
+    height: 66px;
+}
 .navbar .navbar-brand{
     color:#666666;
    font-weight: 400;
