@@ -7,8 +7,14 @@
 
 /*nav*/
 
+.nav-top{
+    height: 66px !important;
+}
+
 .navbar{
-    padding: .5rem;
+    padding: .5rem !important;
+    vertical-align: middle;
+    margin: 0 auto;
 }
 
 .navbar .navbar-brand{
