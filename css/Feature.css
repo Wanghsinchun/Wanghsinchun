@@ -492,3 +492,10 @@ body {
 
     ;
 }
+
+
+.nav-top{
+    display: flex;
+    flex-direction: column;
+    background-color: #CDAF9A;
+}
