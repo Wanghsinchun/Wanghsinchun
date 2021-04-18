@@ -7,6 +7,9 @@
 
 /*nav*/
 
+.nav-top{
+    z-index: 1999;
+}
 .nav-top,
 .navbar{
     height: 66px !important;
