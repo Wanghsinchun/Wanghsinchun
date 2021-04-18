@@ -7,11 +7,19 @@
 
 /*nav*/
 
+.nav-top,
+.navbar{
+    height: 66px !important;
+}
+
+.navbar-nav{
+    background-color: #F8F9FA;
+}
 
 .navbar .navbar-brand{
     color:#666666;
    font-weight: 400;
-   font-size: 20px;
+   font-size: 20px !important;
 }
 .navbar-nav li a{
     font-size: 16px;
