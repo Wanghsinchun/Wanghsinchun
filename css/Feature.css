@@ -378,9 +378,10 @@ body {
         letter-spacing: 4px;
     }
 
+
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:450px) {
     .firefly {
         padding: 13px;
         margin-top: 140px;
@@ -393,6 +394,10 @@ body {
         left: 20px;
     }
 
+
+    .item {
+        padding: 50px 0 50px 40px;
+    }
 
 }
 
