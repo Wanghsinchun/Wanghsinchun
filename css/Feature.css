@@ -107,7 +107,7 @@ img {
 
 @media screen and (max-width:575px) {
 
-   
+
     .navbar .navbar-brand {
         font-size: 18px;
     }
@@ -168,7 +168,7 @@ body {
 .txt p {
     color: #555555;
     text-align: justify;
-   
+
 }
 
 .txt h5 {
@@ -494,8 +494,6 @@ body {
 }
 
 
-.nav-top{
-    display: flex;
-    flex-direction: column;
-    background-color: #CDAF9A;
+.nav-top {
+    height: 66px !important;
 }
