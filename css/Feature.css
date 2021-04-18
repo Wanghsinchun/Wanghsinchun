@@ -10,7 +10,8 @@ img {
 }
 
 
-.nav-top{
+.nav-top,
+.navbar{
     height: 66px !important;
 }
 
