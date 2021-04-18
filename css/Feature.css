@@ -10,7 +10,9 @@ img {
 }
 
 
-
+.nav-top{
+    height: 66px !important;
+}
 
 /*Feature-nav*/
 .Feature-nav {
